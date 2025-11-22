@@ -1,4 +1,45 @@
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 html{
     background-color: rgb(231, 213, 248);
     font-family: "Quicksand" , sans-serif;
+    padding-bottom: 450px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+}
+
+
+.nav-bar ul{
+    list-style-type: none;
+    background-color: blueviolet;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.nav-bar a{
+    color:azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav-bar a:hover{
+    background-color: rgb(155, 106, 200);
+}
+
+.nav-bar li{
+    float: left;
 }
