@@ -3,20 +3,23 @@ body{
 }
 
 main{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 html{
-    background-color: rgb(231, 213, 248);
+    background-color: rgb(234, 216, 247);
     font-family: "Quicksand" , sans-serif;
     padding-bottom: 450px;
     background-position: center bottom;
     background-repeat: no-repeat;
+    color: rgb(98, 25, 167);
 }
 
 h1{
-    text-align: center;
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(98, 25, 167);
 }
 
 
@@ -29,7 +32,7 @@ h1{
 }
 
 .nav-bar a{
-    color:azure;
+    color:rgb(255, 240, 254);
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -37,9 +40,21 @@ h1{
 }
 
 .nav-bar a:hover{
-    background-color: rgb(155, 106, 200);
+    background-color: rgb(220, 202, 236);
+    color: blueviolet;
 }
 
 .nav-bar li{
     float: left;
+}
+
+.middle{
+    display: flex;
+    justify-content: center;
+}
+
+.side-bar{
+    background-color: rgb(224, 248, 243);
+    padding: 20px;
+    margin-right: 10px;
 }
