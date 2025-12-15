@@ -56,7 +56,6 @@ h1{
 
 .side-bar{
     padding: 20px;
-    margin-right: 10px;
 }
 
 .flavors{
@@ -115,4 +114,8 @@ h1{
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+}
+
+.cited{
+    background-color: rgb(249, 247, 251);
 }
