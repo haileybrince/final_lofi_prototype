@@ -10,7 +10,6 @@ main{
 html{
     background-color: rgb(51, 4, 77);
     font-family: "Quicksand" , sans-serif;
-    padding-bottom: 450px;
     background-position: center bottom;
     background-repeat: no-repeat;
     color: rgb(88, 17, 127);
@@ -85,6 +84,11 @@ h1{
 
 .flavor-item:hover .flavor-name{
     display: block;
+}
+
+.footer{
+    position: fixed;
+    height: 30px;
 }
 
 .footer-nav li{
